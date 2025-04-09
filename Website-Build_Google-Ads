@@ -1,0 +1,46 @@
+I need to create a service-based website that is fully optimized for Google Ads. Please help me implement the following critical components:
+
+## Website Purpose
+- Industry: [SPECIFY: e.g., home remodeling, plumbing, legal services]
+- Service area: [SPECIFY: e.g., Columbia SC & Charlotte NC]
+- Primary conversion goals: [SPECIFY: phone calls, form submissions, email contacts]
+- Google Ads account ID: AW-[YOUR_ID]
+
+## Technical Requirements
+1. Implement proper Google Ads global site tag (gtag.js) in the <head> section of all pages
+2. Create a phone click tracking system that:
+   - Shows contact options modal when phone number is clicked
+   - Records phone clicks as conversions in Google Ads
+   - Works on all devices without JavaScript errors
+   - Maintains full phone functionality while recording conversions
+   - Always uses absolute URLs for tracking pixels (https://www.domain.com/tracking-file.html)
+
+3. Set up conversion tracking for:
+   - Phone calls (highest priority)
+   - Form submissions
+   - Email contact clicks
+
+4. Implement SEO essentials:
+   - Schema.org markup for LocalBusiness with service areas
+   - Favicon implementation across all pages
+   - robots.txt and sitemap.xml that includes only customer-facing pages
+   - Proper meta tags on all pages
+
+5. Create a mobile-responsive design that:
+   - Maintains all tracking functionality on mobile
+   - Prioritizes click-to-call buttons on mobile
+   - Loads quickly on all devices
+
+## Implementation Notes
+- **Always** use absolute URLs in tracking pixels, not relative paths
+- All JavaScript tracking code must be compatible with iOS Safari 
+- Google Analytics and Google Ads tags must not conflict
+- Include error handling in all tracking code
+- Tracking files should redirect to main site after recording conversions
+
+Please implement these requirements in the most direct, efficient way possible, focusing on reliability and conversion tracking accuracy above all.
+This prompt template covers the critical elements we've addressed in your site and should help you get more complete, Google Ads ready implementations from AI assistants in a single pass. It highlights the most important technical aspects while providing specific guidance on tracking implementation that would have saved time in our current project.
+
+Feel free to customize the template based on the specific service industry and tracking needs for each project.
+
+
